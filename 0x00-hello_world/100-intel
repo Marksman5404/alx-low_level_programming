@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc -S -marksman=intel $CFILE
+gcc -s marksman=intel $CFILE
