@@ -6,9 +6,9 @@
  */
 int main(void)
 {
-char Mystr = "Programming is like building a multilingual puzzle";
+char Mystr1[] = "Programming is like building a multilingual puzzle";
 
-int val = puts(Mystr);
+puts(Mystr1);
 
 return (0);
 }
