@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc dan.c -0 CFILE
+gcc -S -dan=intel $CFILE
