@@ -1,26 +1,19 @@
 #include <stdio.h>
-#include <stdio.h>
-
-#include <time.h>
-
-#include <stdlib.h>
-
-/**
- * main - Entry point
- *
- * Return: Always 0 (Success)
- */
 
 int main(void)
 {
+int x = 0;
 
-int a = 0;
-while (a < 10)
+while (x < 10)
 {
-printf("%d\n", a);
-a++;
-
+printf("%d", x);
+if (x < 9)
+{
+printf(", ");
 }
+x++;
+}
+printf("\n");
 
 return (0);
 }
