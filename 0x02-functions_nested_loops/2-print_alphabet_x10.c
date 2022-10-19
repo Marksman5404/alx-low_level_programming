@@ -5,8 +5,8 @@
 void print_alphabet_x10(void)
 {
 
-int n = 0;
-int k;
+int k = 0;
+int n;
 
 while (k++ <= 9)
 {
