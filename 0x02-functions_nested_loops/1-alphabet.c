@@ -1,6 +1,4 @@
-#ifndef MAIN_H
-#define MAIN_H
-
+#include "main.h"
   
 /**
  * main - Entry point
@@ -17,10 +15,10 @@ for (n = 'a'; n <='z'; n++)
 
 {
 
-putchar(n);
+_putchar(n);
 }
 
-putchar('\n');
+_putchar('\n');
  
 }
 
