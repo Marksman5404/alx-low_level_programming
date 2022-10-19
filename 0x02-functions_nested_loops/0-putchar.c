@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include "MAIN_H"
 
 /**
  * main - Entry point
@@ -6,8 +6,7 @@
  * Return: Always 0 (Success)
  */
 
-int main(void)
-  
+int main(void)  
 {
   
 char *sh = "_putchar";
@@ -21,7 +20,7 @@ sh++;
 
 }
 
-putchar('\n');
+-putchar('\n');
 
 return (0);
   
