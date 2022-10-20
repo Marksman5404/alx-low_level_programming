@@ -1,23 +1,27 @@
 #include "main.h"
 
 /**
- * print_numbers - print all alphabelt in lowercase
+ * print_numbers - function that prints 10 times the numbers, from 0 to 14
  */
 
 void print_numbers(void)
 
 {
 
-int n;
-
-for (n = '1'; n <= '9'; n++)
-
+int n = 0;
+int k = 0;
+while (k <= 9)
 {
-
-_putchar(n);
+while (n <= 14)
+{
+if (n > 9)
+putchar(n / 10 + '0');
+putchar(n % 10 + '0')
+n++;
 
 }
-
-_putchar('\n');
-
+putchar('\n');
+k++;
+n = 0;
+}
 }
