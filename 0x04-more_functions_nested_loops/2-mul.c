@@ -1,18 +1,15 @@
 #include "main.h"
 
 /**
- *_isdigit - Write a function that checks for alphabetic character.
- * @c: checkmate c
- * Return: 1 if c is a letter, lowercase or uppercase, 0 otherwise
+ * mul - function that adds two integers and returns the result.
+ * @a: the first integer
+ * @b: the second integer
+ * Return: one and two
  */
-int _isdigit(int c)
+
+int mul(int a, int b)
+
 {
-if (c >= '1' && c <= '9')
 
-return (1);
-
-else
-
-return (0);
-
+return (a + b);
 }
