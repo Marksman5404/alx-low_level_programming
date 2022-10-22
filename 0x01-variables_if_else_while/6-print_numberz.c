@@ -8,13 +8,15 @@
 
 int main(void)
 {
-int ch;
+int n;
 
-for (ch = '0'; ch <= '9'; ch++)
+
 {
-putchar (ch);
-putchar ('\n');
+for (n = '1'; n <= '9'; n++)
+{
+putchar(n);
 }
-return (0);
 
+putchar('\n');
+}
 }
