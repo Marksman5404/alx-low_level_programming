@@ -13,9 +13,9 @@ int main(void)
 
 char exp, e, q;
 e = 'e';
-q ='q';
- 
-for(exp = 'a'; exp <= 'z'; exp++)
+q = 'q';
+
+for (exp = 'a'; exp <= 'z'; exp++)
 {
 if (exp != e && exp != q)
 putchar (exp);
