@@ -1,10 +1,30 @@
-include<stdio.h>
-int main()
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+
+/**
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
+ */
+
+int main(void)
 {
-int i;
-for(i= 'Z'; i >= 'A'; i--)
+
+char exp, e, q;
+e = 'e';
+q ='q';
+ 
+for(exp = 'a'; exp <= 'z'; exp++)
 {
-printf("%c", i)
+if (exp != e && exp != q)
+putchar (exp);
+
 }
-return 0;
+
+printf("\n");
+
+
+return (0);
+
 }
